@@ -1,0 +1,26 @@
+PLP PYTHON WEEK 8 PROJECT PLAN
+
+Project Title: Python Toolkit
+
+TOOL 1: SIMPLE CALCULATOR The calculator asks the user for two numbers and an operation, then displays the result. Concepts: variables, input/output, conditionals, arithmetic, f-strings.
+
+TOOL 2: TO-DO LIST The to-do list allows users to add, view, and remove tasks while the program runs. Concepts: lists, loops, conditionals, input/output, f-strings.
+
+TOOL 3: NUMBER GUESSING GAME The game asks the user to guess a random number between 1 and 20 within five attempts. Concepts: loops, conditionals, variables, random numbers, input/output, f-strings.
+
+EXACT MENU TEXT
+
+Welcome to the Python Toolkit!
+
+Please choose a tool:
+
+Simple Calculator
+To-Do List
+Number Guessing Game
+Quit
+
+Enter your choice (1-4):
+
+PROGRAM STRUCTURE
+
+A while loop repeats the main menu until the user chooses Quit. An if/elif/else structure directs the user's choice to the correct tool. The calculator uses conditionals to select an operation. The to-do list uses a changing list to store tasks. The guessing game uses a loop and conditionals to provide feedback. All tools use friendly messages and f-strings. Invalid inputs are handled politely without crashing the program.
